@@ -4,6 +4,22 @@
     }
   }
 
+
 body{
+    background-color: rgb(17, 170, 170);
+}
+
+header{
     display: flex;
+    justify-content: flex-end;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about{
+    margin: 100px;
 }
